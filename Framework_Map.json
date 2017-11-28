@@ -1,0 +1,7 @@
+{
+"Routers":["Main_Rout.php"],
+"Models":["Main_Model.php"],
+"Templates":["Main_Temp.php"],
+"Controls":["Main_Control.php"],
+"Linkers":["Main
+}
