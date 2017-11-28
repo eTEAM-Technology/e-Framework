@@ -1,0 +1,2 @@
+<?php
+//The index page.
