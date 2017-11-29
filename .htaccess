@@ -4,4 +4,6 @@ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_URI} !-l
 RewriteCond %{REQUEST_FILENAME} !\.(ico|css|png|jpg|gif|js|svg|mp4|mp3|3gp|m4a|m4v|jpeg|gif|bmp|pdf)$ [NC]
 # otherwise forward it to index.php
-RewriteRule . index.php
+RewriteEngine On
+RewriteRule ^(.*)$ index.php?url=$1
+FallbackResource index.php
