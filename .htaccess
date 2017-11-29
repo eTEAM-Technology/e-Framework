@@ -6,4 +6,3 @@ RewriteCond %{REQUEST_FILENAME} !\.(ico|css|png|jpg|gif|js|svg|mp4|mp3|3gp|m4a|m
 # otherwise forward it to index.php
 RewriteEngine On
 RewriteRule ^(.*)$ index.php?url=$1
-FallbackResource index.php
